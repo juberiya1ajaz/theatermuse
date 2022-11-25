@@ -12,3 +12,15 @@
 body {
   background-color: #1B2431;
 }
+
+.banner-login {
+  background: url( './assets/login.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover        
+}
+
+.banner-signup {
+  background: url( './assets/signup.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover        
+}
