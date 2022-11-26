@@ -1,44 +1,83 @@
-import React from "react"
-import HeroImg from '../assets/hero.svg'
-import FeatImg from '../assets/feat.svg'
-import { Link } from 'react-router-dom';
+import React from "react";
+import HeroImg from "../assets/hero.svg";
+import FeatImg from "../assets/feat.svg";
+import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
-
   return (
-    <div className='md:mx-28 mx-4 text-white py-8'>
+    <div className="md:mx-28 mx-4 text-white py-8">
+      <div className="md:grid md:grid-cols-2 items-center">
+        <div className="bg-yellow-300   p-14 border-2 border-r-8 border-t-8 rounded-xl border-white ">
+          <h1 className="text-3xl  text-black md:text-4xl font-black ">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
 
-      <div className='md:grid md:grid-cols-2 items-center'>
-        <div className=''>
-          <h1 className='text-3xl md:text-6xl'>Who we are</h1>
-          <p className='text-xl md:text-2xl py-4 tracking-wider text-justify'>About the application</p>
+                  .typeString("Welcome to APP NAME")
+
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Shop Theater Essentials")
+                  .pauseFor(1000)
+                  .deleteAll()
+                  .typeString("Peer Script Review")
+                  .start();
+              }}
+            />
+          </h1>
+          <p className="text-lg  text-black md:text-lg py-4 tracking-wider text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            eget mauris et nulla volutpat venenatis quis et massa. Nam
+            tincidunt, dui eget viverra blandit, est neque dapibus velit, et
+            pharetra nunc
+          </p>
 
           <Link to="/scripts">
-            <button className='bg-secondary py-2 px-8 rounded-md text-xl md:text-2xl'>Read scripts</button>
+            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              Button
+            </button>
           </Link>
-
         </div>
         <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-          <img src={HeroImg} alt="img" width="350" height="350" />
+          {/* <img src={HeroImg} alt="img" width="350" height="350" /> */}
+
+          <iframe
+            className="w-[40rem] h-[40rem] "
+            src="https://embed.lottiefiles.com/animation/30331"
+          ></iframe>
         </div>
       </div>
 
-      <div className='md:grid md:grid-cols-2 pt-12 items-center'>
+      <div className="md:grid md:grid-cols-2 pt-12 items-center">
         <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-          <img src={FeatImg} alt="img" width="350" height="350" />
+          {/* <img src={FeatImg} alt="img" width="350" height="350" /> */}
+          <iframe
+            className="w-[30rem] h-[40rem] "
+            src="https://embed.lottiefiles.com/animation/76069"
+          ></iframe>
         </div>
-        <div className=''>
-          <h1 className='text-5xl'>What else do we have</h1>
-          <p className='text-2xl md:text-2xl py-4 tracking-wider'>APP NAME is a web app where you can:
+        <div className="bg-red-600 p-10 border-2 border-r-8 border-t-8 rounded-xl border-white ">
+          <h1 className="text-5xl text-black font-black  ">
+            What else do we have
+          </h1>
+          <p className="text-2xl md:text-2xl py-4 tracking-wider font-bold text-black ">
+            APP NAME is a web app where you can:
           </p>
-          <ul className="text-2xl">
+          <ul className="text-2xl text-black">
             <li className="list-disc">Shop for your theater needs.</li>
-            <li className="list-disc">Users can search for all nearby theaters.</li>
-            <li className="list-disc">Opportunity to get a role in the theater industry.</li>
-            <li className="list-disc">User can upload their play script and get reviews from others.</li>
+            <li className="list-disc">
+              Users can search for all nearby theaters.
+            </li>
+            <li className="list-disc">
+              Opportunity to get a role in the theater industry.
+            </li>
+            <li className="list-disc">
+              User can upload their play script and get reviews from others.
+            </li>
           </ul>
         </div>
       </div>
     </div>
-  )
+  );
 }

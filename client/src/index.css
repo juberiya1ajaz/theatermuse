@@ -10,7 +10,10 @@
 }
 
 body {
-  background-color: #1B2431;
+/* background-image: url("./assets/bg1.jpg");
+background-repeat: no-repeat;
+background-size: cover; */
+background-color: rgb(27, 24, 24);
 }
 
 .banner-login {
@@ -23,4 +26,9 @@ body {
   background: url( './assets/signup.jpg' );
   background-repeat: no-repeat;
   background-size: cover        
+}
+
+#card{
+  border-image-source: linear-gradient(270deg, #126A68 -4.27%, #612779 34.63%, #C45081 68.03%, #FF8983 103.56%);
+  border-image-slice: 1;
 }
