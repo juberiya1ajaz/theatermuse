@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import SignUp from '../pages/SignUp'
 import Login from '../pages/Login'
 import Home from '../pages/Home'
+import NearbyPlays from '../pages/NearbyPlays'
 
 function Main() {
 
@@ -13,6 +14,7 @@ function Main() {
                 <Route path="/" element={<Login />} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/home" element={<Home />} />
+                <Route path="/nearbyPlays" element={<NearbyPlays />} />
             </Routes>
         </BrowserRouter>
     );
