@@ -5,10 +5,10 @@
 ## 💻 What it does
 
 Our web app **APP NAME** is built with the following features:
-- A page where you can upload you script and get reviews from others
-- User location for nearby plays
-- eCommerce 
-- Opportunity
+- Shop for your theater needs.
+- Users can search for all nearby theaters.
+- Opportunity to get a job in the theater industry.
+- User can upload their play script and get reviews from others.
 
 ## ⚙️ How we built it
 
