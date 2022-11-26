@@ -18,7 +18,7 @@ Our web app **APP NAME** is built with the following features:
 
 ## ☁️ Best Use of Appwrite
 
-We are using Appwrite for building our backend. We are using **Appwrite's Database** to store the data of the users script. We are also using **Appwrite's Storage** to store the products information. We are using **Appwrite's Functions** customize your Appwrite server functionality. We are using **Appwrite's Authentication** to authenticate the users. We are using **Appwrite's Location** feature to know the current location of user and showing them nearest shous. Appwrite made it very easy for us to build our backend. We learned how robust & fast Appwrite services are as it has a free plan that was great for us student hackers.
+For developing our backend, we are use Appwrite. We are storing the information from the user script in **Appwrite's Database**. The data about the products is also stored using **Appwrite's Storage**. We are customising the Appwrite server's functionality by using **Appwrite's Functions**. To authenticate the users, we are use **Appwrite's Authentication**. We use the **Appwrite's Position** feature to determine the user's current location and present them the closest houses. Our backend was incredibly simple to construct with Appwrite. We discovered how strong & quick Appwrite's services are because to the free plan, which was excellent for us student hackers.
 
 ## 🧠 Challenges we ran into
 
