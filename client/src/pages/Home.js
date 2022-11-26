@@ -32,7 +32,10 @@ export default function Home() {
           <p className='text-2xl md:text-2xl py-4 tracking-wider'>APP NAME is a web app where you can:
           </p>
           <ul className="text-2xl">
-            <li className="list-disc">You can upload you script and get reviews from others.</li>
+            <li className="list-disc">Shop for your theater needs.</li>
+            <li className="list-disc">Users can search for all nearby theaters.</li>
+            <li className="list-disc">Opportunity to get a role in the theater industry.</li>
+            <li className="list-disc">User can upload their play script and get reviews from others.</li>
           </ul>
         </div>
       </div>
