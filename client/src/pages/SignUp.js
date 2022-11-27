@@ -39,7 +39,7 @@ export default function SignUp() {
                 <div className="grid grid-rows-6 grid-flow-col min-h-screen items-center justify-items-start">
                     <div className="row-span-4 row-start-2 text-4xl">
                         <h2 className="mb-4 text-[2.79rem] self-center font-bold tracking-wider text-white">
-                            APP NAME
+                            TheaterMuse
                         </h2>
                         <h2 className="text-[2rem] self-center font-bold tracking-wider text-white">
                             Sign Up

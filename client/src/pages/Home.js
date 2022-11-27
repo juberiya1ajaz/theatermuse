@@ -14,7 +14,7 @@ export default function Home() {
               onInit={(typewriter) => {
                 typewriter
 
-                  .typeString("Welcome to APP NAME")
+                  .typeString("Welcome to TheaterMuse")
 
                   .pauseFor(1000)
                   .deleteAll()
@@ -57,7 +57,7 @@ export default function Home() {
             What else do we have
           </h1>
           <p className="text-2xl md:text-2xl py-4 tracking-wider font-bold text-black ">
-            APP NAME is a web app where you can:
+            TheaterMuse is a web app where you can:
           </p>
           <ul className="text-2xl text-black">
             <li className="list-disc">Shop for your theater needs.</li>

@@ -1,10 +1,10 @@
-# APP NAME
+# TheaterMuse
 
 ## 💡 Inspiration
 
 ## 💻 What it does
 
-Our web app **APP NAME** is built with the following features:
+Our web app **TheaterMuse** is built with the following features:
 - Shop for your theater needs.
 - Users can search for all nearby theaters.
 - Opportunity to get a job in the theater industry.
@@ -36,7 +36,7 @@ For developing our backend, we are use Appwrite. We are storing the information 
 - We learned how to use Appwrite services.
 - Managing and handling the Appwrite database.
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for TheaterMuse
 
 - Building a mobile app.
 - Deploying the web app.
