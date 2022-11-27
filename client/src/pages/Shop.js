@@ -80,7 +80,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $69
               </span>
               <a
@@ -145,7 +145,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $659
               </span>
               <a
@@ -218,7 +218,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $39
               </span>
               <a
@@ -283,7 +283,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $569
               </span>
               <a
@@ -356,7 +356,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $899
               </span>
               <a
@@ -429,7 +429,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $69
               </span>
               <a
@@ -502,7 +502,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $119
               </span>
               <a
@@ -575,7 +575,7 @@ export default function Shop() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-3xl font-bold text-gray-900 dark:text-white">
+              <span className="text-2xl font-bold text-gray-900 dark:text-white">
                 $889
               </span>
               <a
