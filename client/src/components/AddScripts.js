@@ -29,7 +29,7 @@ export default function AddScripts() {
     return (
         <div>
             <div className="pl-16 py-6">
-                <h1 className="text-3xl font-bold text-white">Write your script</h1>
+                <h1 className="text-3xl font-bold text-white">Write your script 📝</h1>
                 <div className="h-1 w-56 bg-secondary my-2 ml-4"></div>
             </div>
 
