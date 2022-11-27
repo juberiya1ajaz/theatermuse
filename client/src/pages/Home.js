@@ -6,9 +6,9 @@ import Typewriter from "typewriter-effect";
 
 export default function Home() {
   return (
-    <div className="md:mx-28 mx-4 text-white py-8">
+    <div className="md:mx-28 mx-4 text-white py-4">
       <div className="md:grid md:grid-cols-2 items-center">
-        <div className="bg-yellow-300   p-14 border-2 border-r-8 border-t-8 rounded-xl border-white ">
+        <div className="bg-yellow-300 p-14 border-2 border-r-8 border-t-8 rounded-xl border-white ">
           <h1 className="text-3xl  text-black md:text-4xl font-black ">
             <Typewriter
               onInit={(typewriter) => {
@@ -27,20 +27,16 @@ export default function Home() {
             />
           </h1>
           <p className="text-lg  text-black md:text-lg py-4 tracking-wider text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            eget mauris et nulla volutpat venenatis quis et massa. Nam
-            tincidunt, dui eget viverra blandit, est neque dapibus velit, et
-            pharetra nunc
+            About the web app
           </p>
 
           <Link to="/scripts">
-            <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-              Button
+            <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+              Read Scripts
             </button>
           </Link>
         </div>
         <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-          {/* <img src={HeroImg} alt="img" width="350" height="350" /> */}
 
           <iframe
             className="w-[40rem] h-[40rem] "
@@ -51,7 +47,6 @@ export default function Home() {
 
       <div className="md:grid md:grid-cols-2 pt-12 items-center">
         <div className="grid place-items-center py-4 drop-shadow-3xl shadow-black">
-          {/* <img src={FeatImg} alt="img" width="350" height="350" /> */}
           <iframe
             className="w-[30rem] h-[40rem] "
             src="https://embed.lottiefiles.com/animation/76069"
