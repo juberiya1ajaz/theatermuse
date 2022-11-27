@@ -14,13 +14,13 @@ const storage_id = `{process.env.APPWRITE_STORAGE}`
 
 export const storage = new Storage(client, storage_id)
 
-// const Appwrite = require("appwrite");
+const Appwrite = require("appwrite");
 
-// let sdk  = new Appwrite();
-// sdk
-//   .setEndpoint("http://localhost/v1") 
-//   .setProject("638103fd71136b451201")
+let sdk  = new Appwrite();
+sdk
+  .setEndpoint("http://localhost/v1") 
+  .setProject("638103fd71136b451201")
 
-// let response = sdk.locale.get();
+let response = sdk.locale.get();
 
-// export {response};
+export {response};

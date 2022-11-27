@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
-// import { response } from "../services/appwriteConfig";
+import { response } from "../services/appwriteConfig";
 
 export default function NearbyPlays() {
   const [info, setInfo] = useState({});
 
-  // response.then(
-  //     function (res) {
-  //         setInfo(res);
-  //     },
-  //     function (error) {
-  //         console.error(error.message);
-  //     }
-  // );
+  response.then(
+      function (res) {
+          setInfo(res);
+      },
+      function (error) {
+          console.error(error.message);
+      }
+  );
 
   const { country } = info;
   const { city } = info;
