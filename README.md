@@ -1,4 +1,4 @@
-# TheterMuse
+# TheaterMuse
 
 ## 💡 Inspiration
 As we all know being a playwriter aka dramatist is a tough job and there are many newcomers who are still facing imposter syndrome. These newcomers do not know where they should go. It is a tedious job to look for a reviewer and a mentor. To solve this issue our team brainstormed and came up with the idea of **TheaterMuse**. It is a one-stop destination for all the theater fans and dramatists out there.
@@ -8,7 +8,7 @@ Sometimes it is a tough task to recruit people for your play and it is tough to 
 
 ## 💻 What it does
 
-Our web app **TheterMuse** is built with the following features:
+Our web app **TheaterMuse** is built with the following features:
 - Shop for your theater needs.
 - Users can search for all nearby theaters.
 - Opportunity to get a job in the theater industry.
@@ -40,7 +40,7 @@ For developing our backend, we are using Appwrite. We are storing the informatio
 - We learned how to use Appwrite services.
 - Managing and handling the Appwrite database.
 
-## 🚀 What's next for TheterMuse
+## 🚀 What's next for TheaterMuse
 
 - Building a mobile app.
 - Deploying the web app.
