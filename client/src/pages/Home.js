@@ -27,7 +27,7 @@ export default function Home() {
             />
           </h1>
           <p className="text-lg  text-black md:text-lg py-4 tracking-wider text-justify">
-            About the web app
+            Managing a theater company is hard. there are so many moving parts, and it's hard to keep track of everything. we wanted to create a tool that would help theater companies manage their shows, their actors, and their auditions. wWe also wanted to create a tool that would help actors find auditions and shows that they are interested in.
           </p>
 
           <Link to="/scripts">
